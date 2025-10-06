@@ -1,0 +1,60 @@
+.tin-tuc {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.tieu-de {
+  color: #231709;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.ds-bai-bao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bai-bao {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bai-bao:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.anh-bao {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.noi-dung h3 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.noi-dung a {
+  text-decoration: none;
+  color: f38609;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.noi-dung a:hover {
+  color: #dc3545;
+}
